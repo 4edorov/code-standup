@@ -76,3 +76,19 @@ Need to increase a `bufferSize`.
 ```
 recorder.bufferSize = 16384
 ```
+
+## Code Standup #4
+
+> 30.09.2020
+
+### Issue: drop cache from `<audio>` tag when src was changed to empty.
+
+### Code examples:
+
+An efficient method is to remove `<audio>` from DOM.
+
+### Issue: simple task queue for a server issues.
+
+### Code examples:
+
+A good lib is [better-queue](https://github.com/diamondio/better-queue).
