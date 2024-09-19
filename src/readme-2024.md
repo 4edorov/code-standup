@@ -65,3 +65,27 @@ export default function two_crystal_balls(breaks: boolean[]): number {
   return -1;
 }
 ```
+
+## Code Standup #2
+
+> 18.09.2024
+
+### Issue:
+  - learning course The Last Algorithms Course You'll Need: Bubble Sort
+
+### Code examples:
+
+```
+// BubbleSort
+export default function bubble_sort(arr: number[]): void {
+  for (let i = 0; i < arr.length; ++i) {
+    for (let j = 0; j < arr.length - 1 - i; ++j) {
+      if (arr[j] > arr[j + 1]) {
+        const temp = arr[j];
+        arr[j] = arr[j + 1];
+        arr[j + 1] = temp;
+      }
+    }
+  }
+}
+```
