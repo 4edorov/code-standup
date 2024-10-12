@@ -186,3 +186,44 @@ export default class Stack<T> {
     }
 }
 ```
+
+## Code Standup #4
+
+> 12.10.2024
+
+### Issue: 
+ - solve different problems with recursion, e.g. it can help to construct a parents-children tree. In this case it can creat a tree from a literal string: `1 2 3 (4 5 (51 52 (521 522) 53) 6 7) 8 (81 82) 9`.
+
+### Code examples:
+
+```
+function parseTreeRecursive(input) {
+  const elements = input.match(/\(|\)|\d+/g);
+
+  function helper() {
+    let currentNode = null;
+    const root = [];
+
+    while (elements.length > 0) {
+      const item = elements.shift();
+
+      if (item === "(") {
+        if (currentNode) {
+          currentNode.children = helper();
+        }
+      } else if (item === ")") {
+        return root;
+      } else {
+        currentNode = { value: item, children: [] };
+        root.push(currentNode);
+      }
+    }
+    return root;
+  }
+
+  return helper();
+};
+
+const str = "1 2 3 (4 5 (51 52 (521 522) 53) 6 7) 8 (81 82) 9";
+console.log(JSON.stringify(parseTreeRecursive(str), null, 2));
+```
