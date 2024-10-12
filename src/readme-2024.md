@@ -192,7 +192,7 @@ export default class Stack<T> {
 > 12.10.2024
 
 ### Issue: 
- - solve different problems with recursion, e.g. it can help to construct a parents-children tree. In this case it can creat a tree from a literal string: `1 2 3 (4 5 (51 52 (521 522) 53) 6 7) 8 (81 82) 9`.
+ - solving different problems with a recursion, e.g. it can help to construct a parents-children tree. In this case, it can create a tree from a literal string: `1 2 3 (4 5 (51 52 (521 522) 53) 6 7) 8 (81 82) 9`.
 
 ### Code examples:
 
