@@ -238,3 +238,9 @@ console.log(JSON.stringify(parseTreeRecursive(str), null, 2));
 ### Resources:
 - [Demystifying styled-components](https://www.joshwcomeau.com/react/demystifying-styled-components/);
 - [CSS in React Server Components](https://www.joshwcomeau.com/react/css-in-rsc/);
+
+### Issue:
+- construct a dashboard with grid layout.
+
+### Resources:
+- [Art & Design by Matthew James Taylor](https://matthewjamestaylor.com/)
