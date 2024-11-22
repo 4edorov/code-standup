@@ -227,3 +227,14 @@ function parseTreeRecursive(input) {
 const str = "1 2 3 (4 5 (51 52 (521 522) 53) 6 7) 8 (81 82) 9";
 console.log(JSON.stringify(parseTreeRecursive(str), null, 2));
 ```
+
+## Code Standup #5
+
+> 22.11.2024
+
+### Issue:
+- while starting a new project with Next.js, I've found a good articles about things related to styled components and RSC.
+
+### Resources:
+- [Demystifying styled-components](https://www.joshwcomeau.com/react/demystifying-styled-components/);
+- [CSS in React Server Components](https://www.joshwcomeau.com/react/css-in-rsc/);
