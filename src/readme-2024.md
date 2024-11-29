@@ -244,3 +244,15 @@ console.log(JSON.stringify(parseTreeRecursive(str), null, 2));
 
 ### Resources:
 - [Art & Design by Matthew James Taylor](https://matthewjamestaylor.com/)
+
+## Code Standup #6
+
+> 29.11.2024
+
+### Issue:
+- continue looking into React Server Components. There is a good article for that.
+- page performance matters.
+
+### Resources:
+- [Making Sense of React Server Components](https://www.joshwcomeau.com/react/server-components/)
+- [Welcome to Learn Performance](https://web.dev/learn/performance/welcome)
