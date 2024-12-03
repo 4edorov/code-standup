@@ -256,3 +256,15 @@ console.log(JSON.stringify(parseTreeRecursive(str), null, 2));
 ### Resources:
 - [Making Sense of React Server Components](https://www.joshwcomeau.com/react/server-components/)
 - [Welcome to Learn Performance](https://web.dev/learn/performance/welcome)
+
+## Code Standup #7
+
+> 03.12.2024
+
+### Issue:
+- there are some chore live-coding issues from interviews.
+
+### Resources:
+- [Issue 1](./assets/2024-7-1-code.js)
+- [Issue 2](./assets/2024-7-2-code.js)
+- [Issue 3](./assets/2024-7-3-code.js)
