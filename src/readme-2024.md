@@ -268,3 +268,14 @@ console.log(JSON.stringify(parseTreeRecursive(str), null, 2));
 - [Issue 1](./assets/2024-7-1-code.js)
 - [Issue 2](./assets/2024-7-2-code.js)
 - [Issue 3](./assets/2024-7-3-code.js)
+
+## Code Standup #8
+
+> 26.12.2024
+
+### Issue:
+- creating a store for application, try to decouple the store and UI.
+
+### Resources:
+- [UI as an afterthought](https://michel.codes/blogs/ui-as-an-afterthought)
+- [How to decouple state and UI](https://hackernoon.com/how-to-decouple-state-and-ui-a-k-a-you-dont-need-componentwillmount-cc90b787aa37)
