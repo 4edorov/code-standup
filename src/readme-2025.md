@@ -80,3 +80,29 @@ export default tseslint.config(
   }
 );
 ```
+
+## Code Standup #3
+
+> 11.07.2025
+
+### Issue:
+
+- there is a non-obvious thing with using interfaces with readonly properties in TypeScript and using SonarQube on typing props for a component that is a function declaration; props type should be explicitly mentioned with `Readonly` utility type if an interface is imported; there is no error if the interface is inlined;
+
+### Code examples:
+
+```
+// types.ts
+
+export interface BaseProps {
+  readonly children: ReactNode;
+}
+
+// index.tsx
+
+import { BaseProps } from "./types";
+
+export function Component({ children }: Readonly<BaseProps>) {
+  return <div>{children}</div>;
+}
+```
