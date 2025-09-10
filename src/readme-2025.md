@@ -106,3 +106,21 @@ export function Component({ children }: Readonly<BaseProps>) {
   return <div>{children}</div>;
 }
 ```
+
+## Code Standup #4
+
+> 10.09.2025
+
+### Issue:
+
+- trying to reinstall OS X on Macbook 2015 Pro and it won't let me install El Capitan. An error is: No packages were eligible for install. Contact the software manufacture for assistance. The reason is an outdated certificate for the installation file. Need to set another system date in the past. Btw the time should be set twice when it's possible. After that it's possible upgrade to Monterey.
+
+### Resources:
+
+- [OS X. could not be installed on your computer](https://discussions.apple.com/thread/254096380?sortBy=rank)
+
+### Code examples:
+
+```
+date  -u  0102113317
+```
